@@ -1,6 +1,6 @@
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-import { Sparkles, Headphones, ShoppingCart, ChartLine } from 'lucide-react';
+import { Sparkles, Headphones, ShoppingCart, LineChart } from 'lucide-react';
 
 function useCountUp(target, duration = 1600) {
   const [value, setValue] = useState(0);
@@ -57,7 +57,7 @@ export default function ValueAnimations() {
           <motion.div initial={{ opacity: 0, y: 12 }} animate={aov.controls} className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
             <div className="flex items-center gap-3">
               <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-purple-500 via-pink-500 to-orange-400 text-white flex items-center justify-center">
-                <ChartLine className="h-5 w-5" />
+                <LineChart className="h-5 w-5" />
               </div>
               <div>
                 <p className="text-sm text-gray-500">Avg. order value</p>
@@ -96,7 +96,7 @@ export default function ValueAnimations() {
           }, {
             title: 'Learns & improves',
             desc: 'Continuously optimizes recommendations from outcomes.',
-            icon: ChartLine,
+            icon: LineChart,
             grad: 'from-orange-500 via-pink-500 to-purple-500'
           }].map((item, i) => (
             <motion.div
