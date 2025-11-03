@@ -4,7 +4,7 @@ import { Check, Sparkles } from 'lucide-react';
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-white via-white to-white" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white via-white to-white" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-14 pb-20 lg:pt-24 lg:pb-28">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
