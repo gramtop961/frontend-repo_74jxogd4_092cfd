@@ -20,7 +20,7 @@ export default function Hero() {
               Auraloom uses a real-time AI voice and chat agent to answer questions, recommend products, and close sales across your store 24/7.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <a href="#pricing" className="inline-flex justify-center items-center px-5 py-3 rounded-lg bg-gray-900 text-white hover:bg-black">
+              <a href="#" className="inline-flex justify-center items-center px-5 py-3 rounded-lg bg-gray-900 text-white hover:bg-black">
                 Start free trial
               </a>
               <a href="#features" className="inline-flex justify-center items-center px-5 py-3 rounded-lg border border-gray-200 hover:border-gray-300 text-gray-700">
@@ -37,7 +37,7 @@ export default function Hero() {
 
           <div className="relative h-[420px] sm:h-[520px] lg:h-[560px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0">
-              <Spline scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+              <Spline scene="https://prod.spline.design/N8g2VNcx8Rycz93J/scene.splinecode" style={{ width: '100%', height: '100%' }} />
             </div>
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(99,102,241,0.18),rgba(255,255,255,0)_55%)]" />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-purple-500/10 via-indigo-400/10 to-orange-400/10" />
